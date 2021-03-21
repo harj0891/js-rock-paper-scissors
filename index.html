@@ -3,12 +3,30 @@
 <head>
     <title>Rock Paper Scissors</title>
     <meta charset="UTF-8"/>
-    <script src="rockpaperscissors-0.1.js"></script>
+
 </head>
 <body>
-    <header>
+    <header id="header">
         <h1>Rock Paper Scissors</h1>
+        <p>Intro text</p>
     </header>
-    <p>Test</p>
+    <section id="main-game-selection">
+        <section id ="game-selection-rock">
+            <button id=select-rock>Rock</button>
+        </section>
+        <section id ="game-selection-paper">
+            <button id=select-paper>Paper</button>
+        </section>
+        <section id ="game-selection-scissors">
+            <button id=select-scissors>Scissors</button>
+        </section>
+    </section>
+    <section id="main-game-scores">
+        <p id="score-player">Player Score: 0</p>
+        <p id="score-computer">Computer Score: 0</p>
+        <button id="reset-game">Reset</button>
+    </section>
 </body>
+
+<script src="rockpaperscissors-0.2.js"></script>
 </html>
